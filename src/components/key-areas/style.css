@@ -858,9 +858,12 @@ ul {
 @media (max-width: 768px) {
   .key-areas {
     padding-top: 0;
-    max-width: 100%;
-    overflow-x: auto;
   }
+}
+.key-areas div {
+  z-index: 1;
+  max-width: 100%;
+  overflow-x: auto;
 }
 .key-areas h2 {
   padding-top: 130px;

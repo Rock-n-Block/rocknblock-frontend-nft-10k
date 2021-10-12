@@ -986,13 +986,18 @@ ul {
 }
 @media (max-width: 768px) {
   .create-nft__block-2 {
-    padding-top: 120px;
+    padding-top: 147px;
+  }
+}
+@media (max-width: 428px) {
+  .create-nft__block-2 {
+    padding-top: 91px;
   }
 }
 @media (max-width: 390px) {
   .create-nft__block-2 {
-    padding-top: 0;
-    margin-top: -131px;
+    margin-top: -181px;
+    padding-top: 56px;
   }
 }
 .create-nft__block-2_img {
