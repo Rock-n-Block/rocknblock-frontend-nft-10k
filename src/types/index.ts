@@ -17,3 +17,9 @@ export interface CardsTitlesI {
 export interface CardsColumnsI {
     title: string;
 }
+
+export interface OtherSitesI {
+    img: string;
+    alt: string;
+    title: string;
+}

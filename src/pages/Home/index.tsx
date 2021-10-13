@@ -6,7 +6,7 @@ import {
     NftGenerator,
     ContactUs,
     CreateNftCollection,
-    KeyAreas, UpButton
+    KeyAreas, UpButton, OtherSites
 } from "../../components";
 import TelegramWidget from "../../components/telegram-widget";
 import {useState} from "preact/hooks";
@@ -36,7 +36,7 @@ const HomePage: FunctionalComponent = () => {
             <NftGenerator />
             <CreateNftCollection />
             <KeyAreas />
-
+            <OtherSites />
             <ContactUs title={'GET LIVE TECHNICAL DEMO'} />
         </Fragment>
     )

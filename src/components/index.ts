@@ -12,5 +12,6 @@ export { default as NftGenerator } from './nft-generator';
 export { default as ContactUs } from './contact-us';
 export { default as CreateNftCollection } from './create-nft-collection';
 export { default as KeyAreas } from './key-areas';
+export { default as OtherSites } from './other-sites';
 
 
