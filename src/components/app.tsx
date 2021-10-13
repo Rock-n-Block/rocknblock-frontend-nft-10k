@@ -5,11 +5,11 @@ import * as smoothscroll from 'smoothscroll-polyfill';
 
 import Header from './header';
 import Footer from './footer';
-import HomePage from '../pages/Home';
 import ThanksPage from '../pages/Thanks';
 import PrivacyPolicyPage from '../pages/PrivacyPolicy';
 import TermsPage from '../pages/Terms';
 import CompanyPage from '../pages/Company';
+import HomePage from "../pages/Home";
 
 
 if (typeof window !== "undefined") smoothscroll.polyfill();

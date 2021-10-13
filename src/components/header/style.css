@@ -338,7 +338,7 @@ template {
 }
 
 :root {
-  --body-background-color: #1d1b21;
+  --body-background-color: #000000;
   --text-title-color: linear-gradient(87.05deg, #fff 54.97%, #171628 152.38%);
   --button-orange-background-color: #d23e10;
   --button-orange-border-color: #d23e10;
@@ -358,7 +358,7 @@ template {
 }
 
 body#dark {
-  --body-background-color: #1d1b21;
+  --body-background-color: #000000;
 }
 
 *,
@@ -408,7 +408,7 @@ span {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1100px;
   padding: 0 12px;
   margin: 0 auto;
 }
@@ -534,8 +534,7 @@ header {
   top: 0;
   left: 0;
   z-index: 20;
-  background-color: #1d1b21;
-  transition: 0.5s ease;
+  background-color: #000000;
 }
 
 .justify-end {
@@ -548,6 +547,10 @@ header {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-show {
+  background-color: #000000;
 }
 
 .main-nav {

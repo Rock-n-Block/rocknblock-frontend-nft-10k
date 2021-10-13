@@ -1,0 +1,239 @@
+@import "../../style/mixins/mixins";
+@import "../../style/common/buttons";
+@import "../../style/index";
+
+.create-nft {
+  width: 100%;
+  padding-top: 200px;
+  position: relative;
+
+  @include b('tablet') {
+    padding-top: 80px;
+  }
+
+  &__block {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 213px;
+
+    &_img {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      position: relative;
+
+      &_bg {
+        position: absolute;
+        background: #FF3014;
+        filter: blur(111px);
+        width: 300px;
+        height: 250px;
+        top: 70px;
+      }
+
+      &_cryptopunk {
+        z-index: 1;
+      }
+
+    }
+
+    h2 {
+      font-family: TTNorms, sans-serif;
+      font-style: normal;
+      z-index: 1;
+      font-weight: 800;
+      font-size: 60px;
+      line-height: 60px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      max-width: 850px;
+      margin: 0 auto;
+      padding-top: 16px;
+
+      @include b('tablet') {
+        font-size: 32px;
+        line-height: 32px;
+        padding: 16px 20px 0 20px;
+      }
+
+      span {
+        color: #DC2C2C;
+      }
+    }
+
+    &_button {
+      background: #000000;
+      border-radius: 120px;
+      z-index: 1;
+      max-width: 290px;
+      height: 128px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 12px;
+      padding: 39px;
+
+      @include b('tablet') {
+        background: transparent;
+      }
+
+      a {
+        width: 212px;
+        height: 49px;
+        font-family: TTCommons, sans-serif;
+        font-style: normal;
+        justify-content: space-evenly;
+        font-size: 18px;
+        line-height: 18px;
+      }
+    }
+  }
+
+  &__bg {
+    position: absolute;
+    top: 467px;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    margin-left: auto;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    @include b('390') {
+      top: 330px;
+    }
+
+    &_desktop, &_mobile {
+      object-fit: none;
+    }
+
+    &_desktop {
+      height: 739px;
+      display: block;
+
+      @include b('tablet') {
+        height: 536px;
+      }
+      @include b('390') {
+        display: none;
+      }
+    }
+
+    &_mobile {
+      height: 563px;
+      display: none;
+      @include b('390') {
+        display: block;
+      }
+    }
+  }
+
+  &__block-2 {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 101px;
+
+    @include b('tablet') {
+      padding-top: 147px;
+    }
+
+    @include b('mobile') {
+      padding-top: 91px;
+    }
+
+    @include b('390') {
+      margin-top: -181px;
+      padding-top: 56px;
+    }
+
+    &_img {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &_title-desktop {
+        position: absolute;
+        top: 60px;
+
+        @include b('600') {
+          display: none;
+        }
+      }
+
+      &_title-mobile {
+        display: none;
+        position: absolute;
+        top: 80px;
+        @include b('600') {
+          display: block;
+        }
+      }
+
+      &_bg {
+        height: 736px;
+        object-fit: none;
+
+        @include b('600') {
+          height: 564px;
+        }
+      }
+    }
+
+    &_desc {
+      margin-top: -265px;
+      h2 {
+        font-family: TTNorms, sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        padding-bottom: 40px;
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+        text-transform: uppercase;
+        max-width: 950px;
+        margin: 0 auto;
+
+        @include b('tablet') {
+          font-size: 25px;
+          line-height: 40px;
+          padding: 0 20px;
+        }
+
+        span {
+          color: #DC2C2C;
+        }
+      }
+
+      h3 {
+        font-family: TTCommons, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+
+        @include b('tablet') {
+          font-size: 24px;
+          line-height: 30px;
+          padding: 30px 20px 0 20px;
+        }
+      }
+    }
+  }
+}
+

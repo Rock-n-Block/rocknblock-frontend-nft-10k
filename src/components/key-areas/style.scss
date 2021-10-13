@@ -1,0 +1,65 @@
+@import "../../style/mixins/mixins";
+@import "../../style/common/buttons";
+@import "../../style/index";
+
+
+.key-areas {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 130px;
+  position: relative;
+
+
+  @include b('tablet') {
+    padding-top: 0;
+  }
+
+  div {
+    z-index: 1;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  h2 {
+    padding-top: 130px;
+    z-index: 1;
+    max-width: 469px;
+    font-family: TTNorms, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+
+    @include b('tablet') {
+      font-size: 40px;
+      line-height: 40px;
+      padding: 60px 20px 0 20px;
+    }
+
+    span {
+      color: #DC2C2C;
+    }
+  }
+
+  &_img {
+    z-index: 1;
+    padding-top: 100px;
+
+    @include b('tablet') {
+      object-fit: none;
+      min-width: 1147px;
+    }
+  }
+
+  &_bg {
+    position: absolute;
+    filter: blur(17px);
+    top: 130px;
+  }
+}

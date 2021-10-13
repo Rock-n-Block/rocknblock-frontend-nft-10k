@@ -1,0 +1,109 @@
+@import "../../style/mixins/mixins";
+@import "../../style/mixins/main";
+@import "../../style/common/buttons";
+@import "../../style/index";
+@import "../../style/common/fonts";
+
+.sites {
+  display: block;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 60px;
+
+  &__title {
+    font-family: TTNORMS, sans-serif;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    @include b('tablet') {
+      display: none;
+    }
+  }
+
+  &__container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 100%;
+    overflow-x: auto;
+
+
+    @include b('tablet') {
+      width: 100%;
+    }
+
+    &_item {
+      min-width: 420px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: linear-gradient(30.15deg, #191111 14.13%, #272525 64.22%);
+      border-radius: 4px;
+      padding-bottom: 1em;
+
+      &:not(:last-child) {
+        margin-right: 60px;
+      }
+
+      @include b('tablet') {
+        min-width: 320px;
+      }
+
+      h3 {
+        font-family: TTNORMS, sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        padding: 16px 0 35px 0;
+        line-height: 60px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+        @include b('tablet') {
+          padding: 6px 0;
+        }
+      }
+
+      a {
+        font-family: TTNORMS, sans-serif;
+        font-weight: 700;
+        max-width: 200px;
+        color: #ffffff;
+        border-color: #DC2C2C;
+        height: 52px;
+        justify-content: space-evenly;
+      }
+
+      a:hover {
+        background-color: #2a2730;
+      }
+
+
+      picture {
+        position: absolute;
+        width: 200px;
+      }
+
+      &_img {
+        position: relative;
+        margin-top: 3em;
+
+        @include b('tablet') {
+          margin-top: 1em;
+        }
+
+        div {
+          width: 112px;
+          height: 112px;
+          border-radius: 100%;
+          background: linear-gradient(39.38deg, #ED4E39 -22.42%, #2C51D5 73.65%);
+        }
+      }
+    }
+  }
+}

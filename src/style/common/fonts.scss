@@ -29,3 +29,13 @@
 @include font-face('Karla', '../../assets/fonts/Karla/Karla-SemiBold', 600);
 @include font-face('Karla', '../../assets/fonts/Karla/Karla-Bold', 700);
 @include font-face('Karla', '../../assets/fonts/Karla/Karla-ExtraBold', 800);
+
+// Inter
+@include font-face('Inter', '../../assets/fonts/Inter/Inter-Thin', 100);
+@include font-face('Inter', '../../assets/fonts/Inter/Inter-ExtraLight', 200);
+@include font-face('Inter', '../../assets/fonts/Inter/Inter-Light', 300);
+@include font-face('Inter', '../../assets/fonts/Inter/Inter-Regular', normal);
+@include font-face('Inter', '../../assets/fonts/Inter/Inter-Medium', 500);
+@include font-face('Inter', '../../assets/fonts/Inter/Inter-Bold', 700);
+@include font-face('Inter', '../../assets/fonts/Inter/Inter-ExtraBold', 800);
+@include font-face('Inter', '../../assets/fonts/Inter/Inter-Black', 900);

@@ -1,0 +1,52 @@
+<svg width="928" height="763" viewBox="0 0 928 763" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.1" clip-path="url(#clip0)">
+<mask id="mask0" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="-165" width="928" height="929">
+<rect y="-164.533" width="928" height="928" fill="url(#paint0_radial)"/>
+</mask>
+<g mask="url(#mask0)">
+<g opacity="0.9">
+<path opacity="0.9" d="M463.594 292.297L429.233 992.491H497.819L463.594 292.297Z" fill="white"/>
+<path opacity="0.9" d="M463.594 305.825L497.819 -394.504H429.233L463.594 305.825Z" fill="white"/>
+<path opacity="0.9" d="M470.358 299.061L-229.971 264.701V333.286L470.358 299.061Z" fill="white"/>
+<path opacity="0.9" d="M456.83 299.061L1157.02 333.286V264.701L456.83 299.061Z" fill="white"/>
+<path opacity="0.9" d="M468.329 294.191L-51.1348 765.226L-2.57032 813.655L468.329 294.191Z" fill="white"/>
+<path opacity="0.9" d="M458.727 303.796L978.19 -167.104L929.761 -215.668L458.727 303.796Z" fill="white"/>
+<path opacity="0.9" d="M468.329 303.796L-2.57032 -215.668L-51.1348 -167.104L468.329 303.796Z" fill="white"/>
+<path opacity="0.9" d="M458.727 294.191L929.761 813.655L978.19 765.226L458.727 294.191Z" fill="white"/>
+<path opacity="0.9" d="M466.165 292.703L169.367 927.964L232.812 953.937L466.165 292.703Z" fill="white"/>
+<path opacity="0.9" d="M461.023 305.284L757.686 -329.977L694.241 -355.95L461.023 305.284Z" fill="white"/>
+<path opacity="0.9" d="M469.817 301.631L-165.444 4.8335L-191.417 68.2784L469.817 301.631Z" fill="white"/>
+<path opacity="0.9" d="M457.236 296.491L1092.5 593.153L1118.47 529.708L457.236 296.491Z" fill="white"/>
+<path opacity="0.9" d="M469.819 296.355L-189.25 535.796L-162.736 598.97L469.819 296.355Z" fill="white"/>
+<path opacity="0.9" d="M457.236 301.631L1116.31 62.1911L1089.79 -0.983276L457.236 301.631Z" fill="white"/>
+<path opacity="0.9" d="M466.162 305.284L226.722 -353.786L163.548 -327.271L466.162 305.284Z" fill="white"/>
+<path opacity="0.9" d="M460.889 292.703L700.329 951.772L763.503 925.258L460.889 292.703Z" fill="white"/>
+<path opacity="0.9" d="M464.811 292.297L295.851 972.875L363.083 985.997L464.811 292.297Z" fill="white"/>
+<path opacity="0.9" d="M462.241 305.69L631.202 -374.754L563.97 -388.011L462.241 305.69Z" fill="white"/>
+<path opacity="0.9" d="M470.223 300.278L-210.22 131.317L-223.478 198.55L470.223 300.278Z" fill="white"/>
+<path opacity="0.9" d="M456.83 297.708L1137.41 466.669L1150.53 399.436L456.83 297.708Z" fill="white"/>
+<path opacity="0.9" d="M469.141 295.273L-131.489 656.868L-93.3412 713.82L469.141 295.273Z" fill="white"/>
+<path opacity="0.9" d="M457.912 302.849L1058.54 -58.8819L1020.39 -115.698L457.912 302.849Z" fill="white"/>
+<path opacity="0.9" d="M467.384 304.607L105.653 -296.022L48.8369 -257.874L467.384 304.607Z" fill="white"/>
+<path opacity="0.9" d="M459.805 293.379L821.4 894.009L878.352 855.861L459.805 293.379Z" fill="white"/>
+<path opacity="0.9" d="M467.244 293.379L53.2969 859.243L110.519 896.985L467.244 293.379Z" fill="white"/>
+<path opacity="0.9" d="M459.805 304.607L873.752 -261.256L816.53 -298.998L459.805 304.607Z" fill="white"/>
+<path opacity="0.9" d="M469.143 302.713L-96.7206 -111.234L-134.463 -54.012L469.143 302.713Z" fill="white"/>
+<path opacity="0.9" d="M457.912 295.273L1023.78 709.221L1061.52 651.998L457.912 295.273Z" fill="white"/>
+<path opacity="0.9" d="M470.221 297.708L-222.668 405.118L-208.87 472.215L470.221 297.708Z" fill="white"/>
+<path opacity="0.9" d="M456.965 300.414L1149.72 192.869L1135.92 125.771L456.965 300.414Z" fill="white"/>
+<path opacity="0.9" d="M464.949 305.689L357.404 -387.199L290.307 -373.401L464.949 305.689Z" fill="white"/>
+<path opacity="0.9" d="M462.241 292.432L569.651 985.186L636.749 971.388L462.241 292.432Z" fill="white"/>
+</g>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(464 299.467) rotate(90) scale(464)">
+<stop offset="0.552608"/>
+<stop offset="1" stop-color="#C4C4C4" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0">
+<rect width="928" height="763" fill="white"/>
+</clipPath>
+</defs>
+</svg>

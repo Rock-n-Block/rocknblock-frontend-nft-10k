@@ -92,16 +92,6 @@ const ContactUs: FunctionalComponent<ContactUsProps> = ({title, subtitle}) => {
 
   return (
     <div className={`${style['contact-us']} ${style.container}`} id="contact-us">
-      {isImgAvailable && 
-          <Fragment>
-            <div className={style['background-img']}>
-              <img src="../../assets/img/background-partners.png" alt="background-img" />
-            </div>
-            <div className={style['background-img']}>
-              <img src="../../assets/img/background-contact.png" alt="background-img" />
-            </div>
-          </Fragment>
-      }
       <BlockHeader
         style={style}
         primary={title}

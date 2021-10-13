@@ -27,7 +27,7 @@
   justify-content: space-between;
   max-width: 1000px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .container .blocks {
     margin: 1em auto 0 auto;
     width: 80%;
@@ -58,7 +58,7 @@
 .container .blocks .company {
   width: 50%;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .container .blocks .company {
     margin-bottom: 50px;
     width: 100%;
@@ -104,7 +104,7 @@
 .container .blocks .contacts {
   width: 30%;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .container .blocks .contacts {
     width: 100%;
   }
