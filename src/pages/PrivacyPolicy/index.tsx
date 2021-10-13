@@ -16,14 +16,12 @@ const PrivacyPolicyPage: FunctionalComponent = () => {
 
   useEffect(() => {
 
-    const watchScroll = (): void => {
-      window.addEventListener("scroll", logIt);
-    }
-    watchScroll();
+    window.addEventListener("scroll", logIt);
+
     return (): void => {
       window.removeEventListener("scroll", logIt);
     };
-  });
+  }, [logIt]);
 
   return (
     <div>
