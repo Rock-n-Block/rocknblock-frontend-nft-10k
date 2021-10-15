@@ -65,7 +65,7 @@ export const nftItems: NftItemsI[] = [
 ]
 export const cardsTitles: CardsTitlesI[] = [
     {title: 'Art'},
-    {title: 'text'},
+    {title: 'Photo'},
     {title: '3D'},
 ]
 
