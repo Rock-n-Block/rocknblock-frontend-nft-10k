@@ -13,6 +13,9 @@ const OtherSites: FunctionalComponent = () => {
                         </div>
                         <h3>{item.title}</h3>
                         <a
+                            href={item.href}
+                            rel="noreferrer"
+                            target="_blank"
                             className={`${style['sites__buttons-order']} ${style.btn} ${style['btn-white']} ${style['btn-hover']} ${style['btn-rounded']}`}
                         >
                             Click here
