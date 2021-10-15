@@ -22,4 +22,10 @@ export interface OtherSitesI {
     img: string;
     alt: string;
     title: string;
+    href: string;
+}
+
+export interface ContactUsProps {
+    title: string;
+    subtitle?: string;
 }

@@ -13,5 +13,7 @@ export { default as ContactUs } from './contact-us';
 export { default as CreateNftCollection } from './create-nft-collection';
 export { default as KeyAreas } from './key-areas';
 export { default as OtherSites } from './other-sites';
+export { default as Input } from './input';
+export { default as SocialInput } from './input/socialInput';
 
 

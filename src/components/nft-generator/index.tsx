@@ -7,6 +7,7 @@ const NftGenerator: FunctionalComponent = () => {
         <div className={style['nft-generator']}>
             <h2 className={style['nft-generator__title']}>take the leap towards your NFT business.</h2>
             <a
+                href="#contact-us"
                 className={`${style['about__buttons-contact']} ${style.btn} ${style['btn-orange-cl-solid']} ${style['btn-rounded']}`}>
                 Enroll now
                 <img

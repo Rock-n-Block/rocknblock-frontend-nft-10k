@@ -64,14 +64,14 @@ export const nftItems: NftItemsI[] = [
 
 ]
 export const cardsTitles: CardsTitlesI[] = [
-    {title: 'text'},
-    {title: 'text'},
-    {title: 'text'},
+    {title: 'Art'},
+    {title: 'Photo'},
+    {title: '3D'},
 ]
 
 export const cardsColumns: CardsColumnsI[] = [
-    {title: 'text'},
-    {title: 'text'},
-    {title: 'text'},
-    {title: 'text'},
+    {title: 'Set 1'},
+    {title: 'Set 2'},
+    {title: 'Set 3'},
+    {title: 'Set 4'},
 ]
