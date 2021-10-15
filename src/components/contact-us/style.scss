@@ -51,6 +51,29 @@
     }
   }
 
+  .socialsBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .socialsType {
+    margin-left: -10px;
+
+    @media (max-width: 1024px) {
+      margin-left: -5px;
+    }
+
+    @media (max-width: 615px) {
+      margin-left: auto;
+      right: 10px;
+    }
+
+    @media (max-width: 415px) {
+      margin-left: 0;
+    }
+  }
+
   &__form {
     margin-top: 50px;
     display: flex;
@@ -68,7 +91,7 @@
       width: 100%;
       max-width: 546px;
       min-height: 68px;
-      background: #1d1b21;
+      background: #000000;
       color: #fff;
       font-style: normal;
       font-weight: bold;

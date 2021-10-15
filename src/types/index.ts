@@ -24,3 +24,8 @@ export interface OtherSitesI {
     title: string;
     href: string;
 }
+
+export interface ContactUsProps {
+    title: string;
+    subtitle?: string;
+}

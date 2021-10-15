@@ -888,6 +888,30 @@ ul {
     margin-top: 10px;
   }
 }
+.contact-us .socialsBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-us .socialsType {
+  margin-left: -10px;
+}
+@media (max-width: 1024px) {
+  .contact-us .socialsType {
+    margin-left: -5px;
+  }
+}
+@media (max-width: 615px) {
+  .contact-us .socialsType {
+    margin-left: auto;
+    right: 10px;
+  }
+}
+@media (max-width: 415px) {
+  .contact-us .socialsType {
+    margin-left: 0;
+  }
+}
 .contact-us__form {
   margin-top: 50px;
   display: flex;
@@ -906,7 +930,7 @@ ul {
   width: 100%;
   max-width: 546px;
   min-height: 68px;
-  background: #1d1b21;
+  background: #000000;
   color: #fff;
   font-style: normal;
   font-weight: bold;
