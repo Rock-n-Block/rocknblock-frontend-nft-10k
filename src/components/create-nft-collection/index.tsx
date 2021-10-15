@@ -13,6 +13,7 @@ const CreateNftCollection: FunctionalComponent = () => {
                 <h2>Create a 10000+ NFT Pixel Art Collection <span>like CryptoPunk</span></h2>
                 <div className={style['create-nft__block_button']}>
                     <a
+                        href="#contact-us"
                         className={`${style['about__buttons-contact']} ${style.btn} ${style['btn-orange-cl-solid']} ${style['btn-rounded']}`}>
                         Order Project
                         <img
