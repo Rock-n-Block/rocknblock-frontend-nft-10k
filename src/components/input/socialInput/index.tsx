@@ -42,11 +42,11 @@ const Socials: FunctionalComponent<SocisalsProps> = ({onChangeSocial, customStyl
 
   const Social: FunctionalComponent<PropsSocialBtn> = ({social, action, isCurrent = false}: PropsSocialBtn) => {
     return (
-      <div class={`${style.socBlock} ${customStyleSocials}`} onClick={action}>
-        {social.iconUrl ? <img class={style.socIcon} src={social.iconUrl} /> : null}
-        <label class={style.socName}>{social.name}</label>
-        {isCurrent ? <img class={style.downIcon} src='../../../assets/img/icons/down.svg' /> : null}
-      </div>
+        <div class={`${style.socBlock} ${customStyleSocials}`} onClick={action}>
+          {social.iconUrl ? <img class={style.socIcon} src={social.iconUrl} /> : null}
+          <label class={style.socName}>{social.name}</label>
+          {isCurrent ? <img class={style.downIcon} src='../../../assets/img/icons/down.svg' /> : null}
+        </div>
     )
   }
 
@@ -58,11 +58,11 @@ const Socials: FunctionalComponent<SocisalsProps> = ({onChangeSocial, customStyl
     }, [currentSocial]);
 
     return (
-      <div class={style.socList}>
-        {socials.map((item, i) => <Social key={i} social={item} 
-          action={ () => action(item)}
-        />)}
-      </div>
+        <div class={style.socList}>
+          {socials.map((item) => <Social key={item.name} social={item}
+                                         action={ () => action(item)}
+          />)}
+        </div>
     )
   }
 
@@ -71,12 +71,12 @@ const Socials: FunctionalComponent<SocisalsProps> = ({onChangeSocial, customStyl
   }, [isVisibleList]);
 
   return (
-    <div>
-      <div class={style.block}>
-        <Social social={currentSocial} isCurrent={true} action={onChangeVisible} />
-        {isVisibleList ? <SocialList /> : null}
+      <div>
+        <div class={style.block}>
+          <Social social={currentSocial} isCurrent={true} action={onChangeVisible} />
+          {isVisibleList ? <SocialList /> : null}
+        </div>
       </div>
-    </div>
   )
 }
 
@@ -94,17 +94,17 @@ interface Props {
 const SocialInput: FunctionalComponent<Props> = ({value,placeholder, type, customStyleInput, customStyleBlock, customStyleSocials, onChangeInput, onChangeSocial}) => {
   const onChange = useCallback((event: any): void => onChangeInput(String(event?.target?.value)), []);
   return (
-    <Fragment>
-      <div class={`${style.inputBlock} ${customStyleBlock}`}>
-        <input class={`${style.input} ${customStyleInput}`} 
-          placeholder={placeholder}
-          type={type ?? 'text'}
-          value={value}
-          onInput={onChange}
-        />
-      </div>
-      <Socials customStyleSocials={customStyleSocials} onChangeSocial={onChangeSocial} />
-    </Fragment>
+      <Fragment>
+        <div class={`${style.inputBlock} ${customStyleBlock}`}>
+          <input class={`${style.input} ${customStyleInput}`}
+                 placeholder={placeholder}
+                 type={type ?? 'text'}
+                 value={value}
+                 onInput={onChange}
+          />
+        </div>
+        <Socials customStyleSocials={customStyleSocials} onChangeSocial={onChangeSocial} />
+      </Fragment>
   )
 }
 
