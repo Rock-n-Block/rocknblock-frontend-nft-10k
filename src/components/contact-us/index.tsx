@@ -30,7 +30,7 @@ const ContactUs: FunctionalComponent<ContactUsProps> = ({title, subtitle}) => {
   };
 
   const fetchForm = (token: string): void => {
-    if (token) fetch(`https://rnblading.rocknblock.io/api/v2/email/`, {
+    if (token) fetch(`https://rnblading.rocknblock.io/api/v2/email`, {
       method: 'POST',
       headers,
       body: formData
