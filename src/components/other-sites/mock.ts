@@ -11,7 +11,7 @@ export const otherSites: OtherSitesI[] = [
         img: '../../assets/img/icon-farming.png',
         alt: 'icon farming',
         title: 'Farming',
-        href: ''
+        href: 'https://farming.rocknblock.io/'
     },
     {
         img: '../../assets/img/icon-crowdsale.png',
@@ -23,7 +23,7 @@ export const otherSites: OtherSitesI[] = [
         img: '../../assets/img/icon-vesting.png',
         alt: 'icon vesting',
         title: 'Vesting',
-        href: ''
+        href: 'https://vesting.rocknblock.io/'
     },
 
 ]

@@ -7,7 +7,6 @@ import BlockHeader from '../block-header';
 
 import useGoogleReCaptchaV2 from '../../hooks/useGoogleReCaptcha';
 import { RECAPTCHA_KEY } from '../../definitions';
-import {getCurrentUrl} from "preact-router";
 import {ContactUsProps} from "../../types";
 import { SocialInput } from '..';
 
@@ -19,28 +18,19 @@ const ContactUs: FunctionalComponent<ContactUsProps> = ({title, subtitle}) => {
   const [idea, setIdea] = useState('');
   const [social, setSocial] = useState('E-mail');
   const [token, setToken] = useState('');
-  const [isImgAvailable, setIsImgAvailable] = useState(false);
-
-  const location = getCurrentUrl();
-
-  useEffect(() => {
-    if (location === '/') {
-      setIsImgAvailable(true)
-    } else setIsImgAvailable(false)
-  }, [location])
 
   const { ReCaptchaBadge, executeReCaptcha } = useGoogleReCaptchaV2({
     siteKey: RECAPTCHA_KEY
   });
 
-  const formData = JSON.stringify({name, socialNetwork: contact, message: idea, social});
+  const formData = JSON.stringify({name, contact, message: idea, social});
 
   const headers = {
     'Content-Type': 'application/json',
   };
 
   const fetchForm = (token: string): void => {
-    if (token) fetch(`https://rocknblock.io/api/v1/send_unblocking_feedback/`, {
+    if (token) fetch(`https://rnblading.rocknblock.io/api/v2/email/`, {
       method: 'POST',
       headers,
       body: formData
