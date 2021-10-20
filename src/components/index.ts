@@ -15,5 +15,6 @@ export { default as KeyAreas } from './key-areas';
 export { default as OtherSites } from './other-sites';
 export { default as Input } from './input';
 export { default as SocialInput } from './input/socialInput';
+export { default as PupopPreloader } from './PopupPreloader';
 
 
