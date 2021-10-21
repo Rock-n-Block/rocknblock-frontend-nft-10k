@@ -23,7 +23,7 @@ const ContactUs: FunctionalComponent<ContactUsProps> = ({title, subtitle}) => {
     siteKey: RECAPTCHA_KEY
   });
 
-  const formData = JSON.stringify({name, contact, message: idea, social});
+  const formData = JSON.stringify({name, contact, message: idea, social, landing: '10knft'});
 
   const headers = {
     'Content-Type': 'application/json',
